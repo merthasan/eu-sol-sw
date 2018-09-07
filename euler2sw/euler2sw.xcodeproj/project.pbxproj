@@ -7,21 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8AC0F962142DA77003FF200 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AC0F952142DA77003FF200 /* main.swift */; };
+		B8AC0FA92142DF3C003FF200 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AC0FA82142DF3C003FF200 /* main.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B8AC0FB32142DF3D003FF200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B8AC0FAF2142DF3C003FF200 /* euler2sw.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B8AC0FA52142DF3C003FF200;
-			remoteInfo = euler2sw;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		B8AC0F902142DA77003FF200 /* CopyFiles */ = {
+		B8AC0FA32142DF3C003FF200 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -33,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B8AC0F922142DA77003FF200 /* euler-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "euler-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8AC0F952142DA77003FF200 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B8AC0FAF2142DF3C003FF200 /* euler2sw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = euler2sw.xcodeproj; path = euler2sw/euler2sw.xcodeproj; sourceTree = "<group>"; };
+		B8AC0FA52142DF3C003FF200 /* euler2sw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = euler2sw; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AC0FA82142DF3C003FF200 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B8AC0F8F2142DA77003FF200 /* Frameworks */ = {
+		B8AC0FA22142DF3C003FF200 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,120 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B8AC0F892142DA77003FF200 = {
+		B8AC0F9C2142DF3C003FF200 = {
 			isa = PBXGroup;
 			children = (
-				B8AC0FAF2142DF3C003FF200 /* euler2sw.xcodeproj */,
-				B8AC0F942142DA77003FF200 /* euler-swift */,
-				B8AC0F932142DA77003FF200 /* Products */,
+				B8AC0FA72142DF3C003FF200 /* euler2sw */,
+				B8AC0FA62142DF3C003FF200 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B8AC0F932142DA77003FF200 /* Products */ = {
+		B8AC0FA62142DF3C003FF200 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8AC0F922142DA77003FF200 /* euler-swift */,
+				B8AC0FA52142DF3C003FF200 /* euler2sw */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8AC0F942142DA77003FF200 /* euler-swift */ = {
+		B8AC0FA72142DF3C003FF200 /* euler2sw */ = {
 			isa = PBXGroup;
 			children = (
-				B8AC0F952142DA77003FF200 /* main.swift */,
+				B8AC0FA82142DF3C003FF200 /* main.swift */,
 			);
-			path = "euler-swift";
-			sourceTree = "<group>";
-		};
-		B8AC0FB02142DF3C003FF200 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B8AC0FB42142DF3D003FF200 /* euler2sw */,
-			);
-			name = Products;
+			path = euler2sw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8AC0F912142DA77003FF200 /* euler-swift */ = {
+		B8AC0FA42142DF3C003FF200 /* euler2sw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8AC0F992142DA77003FF200 /* Build configuration list for PBXNativeTarget "euler-swift" */;
+			buildConfigurationList = B8AC0FAC2142DF3C003FF200 /* Build configuration list for PBXNativeTarget "euler2sw" */;
 			buildPhases = (
-				B8AC0F8E2142DA77003FF200 /* Sources */,
-				B8AC0F8F2142DA77003FF200 /* Frameworks */,
-				B8AC0F902142DA77003FF200 /* CopyFiles */,
+				B8AC0FA12142DF3C003FF200 /* Sources */,
+				B8AC0FA22142DF3C003FF200 /* Frameworks */,
+				B8AC0FA32142DF3C003FF200 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "euler-swift";
-			productName = "euler-swift";
-			productReference = B8AC0F922142DA77003FF200 /* euler-swift */;
+			name = euler2sw;
+			productName = euler2sw;
+			productReference = B8AC0FA52142DF3C003FF200 /* euler2sw */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B8AC0F8A2142DA77003FF200 /* Project object */ = {
+		B8AC0F9D2142DF3C003FF200 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Mert Hasan";
 				TargetAttributes = {
-					B8AC0F912142DA77003FF200 = {
+					B8AC0FA42142DF3C003FF200 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = B8AC0F8D2142DA77003FF200 /* Build configuration list for PBXProject "euler-swift" */;
+			buildConfigurationList = B8AC0FA02142DF3C003FF200 /* Build configuration list for PBXProject "euler2sw" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B8AC0F892142DA77003FF200;
-			productRefGroup = B8AC0F932142DA77003FF200 /* Products */;
+			mainGroup = B8AC0F9C2142DF3C003FF200;
+			productRefGroup = B8AC0FA62142DF3C003FF200 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B8AC0FB02142DF3C003FF200 /* Products */;
-					ProjectRef = B8AC0FAF2142DF3C003FF200 /* euler2sw.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				B8AC0F912142DA77003FF200 /* euler-swift */,
+				B8AC0FA42142DF3C003FF200 /* euler2sw */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		B8AC0FB42142DF3D003FF200 /* euler2sw */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = euler2sw;
-			remoteRef = B8AC0FB32142DF3D003FF200 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B8AC0F8E2142DA77003FF200 /* Sources */ = {
+		B8AC0FA12142DF3C003FF200 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AC0F962142DA77003FF200 /* main.swift in Sources */,
+				B8AC0FA92142DF3C003FF200 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B8AC0F972142DA77003FF200 /* Debug */ = {
+		B8AC0FAA2142DF3C003FF200 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		B8AC0F982142DA77003FF200 /* Release */ = {
+		B8AC0FAB2142DF3C003FF200 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +239,7 @@
 			};
 			name = Release;
 		};
-		B8AC0F9A2142DA77003FF200 /* Debug */ = {
+		B8AC0FAD2142DF3C003FF200 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -284,7 +248,7 @@
 			};
 			name = Debug;
 		};
-		B8AC0F9B2142DA77003FF200 /* Release */ = {
+		B8AC0FAE2142DF3C003FF200 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -296,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8AC0F8D2142DA77003FF200 /* Build configuration list for PBXProject "euler-swift" */ = {
+		B8AC0FA02142DF3C003FF200 /* Build configuration list for PBXProject "euler2sw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8AC0F972142DA77003FF200 /* Debug */,
-				B8AC0F982142DA77003FF200 /* Release */,
+				B8AC0FAA2142DF3C003FF200 /* Debug */,
+				B8AC0FAB2142DF3C003FF200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8AC0F992142DA77003FF200 /* Build configuration list for PBXNativeTarget "euler-swift" */ = {
+		B8AC0FAC2142DF3C003FF200 /* Build configuration list for PBXNativeTarget "euler2sw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8AC0F9A2142DA77003FF200 /* Debug */,
-				B8AC0F9B2142DA77003FF200 /* Release */,
+				B8AC0FAD2142DF3C003FF200 /* Debug */,
+				B8AC0FAE2142DF3C003FF200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B8AC0F8A2142DA77003FF200 /* Project object */;
+	rootObject = B8AC0F9D2142DF3C003FF200 /* Project object */;
 }
